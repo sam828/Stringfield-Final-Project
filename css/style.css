@@ -1,0 +1,51 @@
+h1 {font-size: 75px;
+	color: red;
+	font-family: 'Bungee Inline', cursive;
+margin-left: 50px;}
+
+h2 {font-size: 75px;
+	color: red;
+	font-family: 'Bungee Inline', cursive;
+margin-left: 50px;}
+
+body {background-image: url("../images/sampiano.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+ul {font-size: 45px;
+	color: red;
+	font-family: 'Bungee Inline', cursive;
+	margin-left: 50px;
+}
+
+a {font-size: 45px;
+	color: red;
+	font-family: 'Bungee Inline', cursive;
+	margin-left: 50px;}
+
+.videos {background-image: url("../images/pianohands.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+color: red;
+font-family: "Bungie Inline"; 
+}
+
+#shows {background-image: url("../images/pianohands.jpg");
+color: red;
+}
+
+#press {background-image: url("../images/pianohands.jpg");
+color: red;
+}
+
+.contact 	{ background-image: url("../images/sampiano.jpg");
+background-repeat: no-repeat;
+background-size: cover; 
+font-size: 45px;
+	color: red;
+	font-family: 'Bungee Inline', cursive;
+	margin-left: 50px;
+}
+
+.facebook {margin-left: 100px;}
