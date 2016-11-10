@@ -1,6 +1,6 @@
 h1 {font-size: 36px;
-	color: red;
-	font-family: 'Bungee Inline', cursive;
+	color: black;
+	font-family: 'Slabo 27px', serif;
 float: left;}
 
 h2 {font-size: 75px;
@@ -8,12 +8,24 @@ h2 {font-size: 75px;
 	font-family: 'Bungee Inline', cursive;
 margin-left: 50px;}
 
+h4 {font-size: 36px;
+	color: red;
+	font-family: 'Bungee Inline', cursive;
+float: left;}
+
+p {font-size: 36px;
+	color: red;
+	font-family: 'Bungee Inline', cursive;
+float: left;}
+
+
 body {background-image: url("../images/sam.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 }
 
 ul {font-size: 24px;
+	list-style-type: none;
 	color: red;
 	font-family: 'Bungee Inline', cursive;
 	float: left;
@@ -53,36 +65,140 @@ padding: 5px;}
  }
 }
 
-.music {background-image: url("../images/BACK.jpg");
-background-repeat: no-repeat;
-background-size: cover;
+.music {
 color: red;
 font-family: "Bungie Inline"; 
 }
 
-.videos {background-color: white;
-background-repeat: no-repeat;
-background-size: cover;
-color: red;
-font-family: "Bungie Inline"; 
+.buy {
+	margin: 20px;
+	float: left;
 }
 
-#shows {background-image: url("../images/pianohands.jpg");
+.listen {
+	float: right;
+}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.shows {background-image: url("../images/BACK.jpg");
 color: red;
 }
 
-#press {background-image: url("../images/pianohands.jpg");
+.leftfield {
+	font-style: "Bungie Inliie", cursive;
+	font-size: 10px;
+	margin-left: 50px;
+}
+
+.press {
+	float: left;
 color: red;
 }
+
+.review {margin: 100px;
+padding-bottom: 25px;}
+
+.charlestoncitypaper {margin: 100px;
+padding-bottom: 25px;
+padding-left: 25px;}
+
+.lightning {margin: 100px;}
+
 
 .contact 	{  
 font-size: 45px;
 	color: red;
 	font-family: 'Bungee Inline', cursive;
-	margin-left: 50px;
 }
 
 .facebook {
+	float: left;
 	padding-top: 500px;
+}
+
+.subscribe {
+	margin: 100px;
+	padding-top: 500px;
+	width: 200px;
 }
 
