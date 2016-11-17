@@ -1,67 +1,88 @@
 header {
   overflow: hidden;
+  padding-right: 25px;
+  padding-left: 25px;
 }
 
 h1 {font-size: 36px;
 	color: red;
-	font-family: 'Bungee Inline', cursive;
+	font-family: 'Josefin Slab', serif;
 float: left;
 width:45%;}
 
 h2 {font-size: 75px;
 	color: red;
-	font-family: 'Bungee Inline', cursive;
+font-family: 'Josefin Slab', serif;
 margin-left: 50px;}
 
 h4 {font-size: 36px;
 	color: red;
-	font-family: 'Bungee Inline', cursive;
+	font-family: 'Josefin Slab', serif;
 float: left;}
 
 p {font-size: 36px;
 	color: red;
-	font-family: 'Bungee Inline', cursive;
+	font-family: 'Josefin Slab', serif;
 float: left;}
 
 img {
   width:100%;
 }
 
-.homepage {background-image: url("../images/Sam.jpg");
+.homepage {background-image: url("../images/sam.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 }
 
-.musicpage {background-image: url("../images/pianohands.jpg");
+.musicpage {
+  background-image: url("../images/pianohands.jpg");
 background-repeat: no-repeat;
 background-size: cover;
+
 }
 
 .videopage {
+  background-image: url("../images/pianokeys.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.showspage {background-image: url("../images/sampiano.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.upcomingshows {
+  margin-bottom: 25px;
+}
+
+.contactpage {
   background-color: black;
 }
 
-.showspage {background-image: url("../images/BACK.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-}
 
 .presspage {
   background-image: url("../images/sampiano.jpg");
-background-repeat: no-repeat;
-background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  
 }
 
 ul {font-size: 24px;
 	list-style-type: none;
 	color: red;
-	font-family: 'Bungee Inline', cursive;
+	font-family: 'Josefin Slab', serif;
 	float: left;
 }
 
 a {font-size: 24px;
 	color: red;
-	font-family: 'Bungee Inline', cursive;
+  list-style-type: none;
+  text-decoration: none;
+font-family: 'Josefin Slab', serif;
 	float: left;}
 
 	@media only screen and (max-width: 768px){
@@ -71,6 +92,7 @@ a {font-size: 24px;
    height:3px;
    background-color: #000;
    margin:2px 0;
+   text-decoration: none;
 	}
 }
 
@@ -86,21 +108,27 @@ a {font-size: 24px;
 
 .menu ul,
 .menu a {
-  font-size: 18px;
+  font-family: 'Josefin Slab', serif;
+  font-size: 26px;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 .menu li {font-size: 12px;
-font-family: "Oswald", sans-serif;
+font-family: 'Josefin Slab', serif;
 font-weight:700;
 color: #fff;
 float: left;
-padding: 5px;}
+padding: 5px;
+text-decoration: none;
+}
 
 @media only screen and (max-width: 768px){
 .menu li {
    display: block;
    width: 20px;
    height:3px;
+   font-family: 'Josefin Slab', serif;
    background-color: #000;
    margin:2px 0;
    float: right;
@@ -110,18 +138,14 @@ padding: 5px;}
 .music {
 color: red;
 font-family: "Bungie Inline"; 
-}
-
-.buy {
-	margin: 20px;
-	float: left;
+margin-bottom: 50px;
 }
 
 .listen {
-	float: right;
-  margin-right: 20px;
+  float: left;
+  margin-left: 500px;
+  list-style-type: none;
 }
-
 
 .slideshow-container {
   max-width: 100px;
@@ -153,6 +177,52 @@ font-family: "Bungie Inline";
   background-color: rgba(0,0,0,0.8);
 }
 
+.bandcamp {
+   border-radius: 25px 25px 20px 25px;
+}
+
+  @media only screen and (max-width: 768px){
+  .bandcamp {
+    display: block;
+   width: 100%;
+   height:100%;
+  }
+}
+
+.itunes {
+   border-radius: 25px 25px 20px 25px;
+}
+
+  @media only screen and (max-width: 768px){
+  .itunes {
+    display: block;
+   width: 100%;
+   height:100%;
+  }
+}
+
+.spotify {
+   border-radius: 25px 25px 20px 25px;
+}
+
+  @media only screen and (max-width: 768px){
+  .spotify {
+    display: block;
+   width: 100%;
+   height:100%;
+  }
+}
+.soundcloud {
+   border-radius: 25px 25px 20px 25px;
+}
+
+  @media only screen and (max-width: 768px){
+  .soundcloud {
+    display: block;
+   width: 100%;
+   height:100%;
+  }
+}
 
 .text {
   color: #f2f2f2;
@@ -204,30 +274,44 @@ font-family: "Bungie Inline";
   to {opacity: 1}
 }
 
-.shows {background-image: url("../images/BACK.jpg");
-color: red;
-}
 
 .leftfield {
-	font-style: "Bungie Inliie", cursive;
-	font-size: 10px;
-	margin-left: 50px;
-  margin-top: 100px;
+  font-family: 'Josefin Slab', serif;
+	margin-left: 100px;
+  margin-top: 50px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.leftfield a {
+  font-family: 'Josefin Slab', serif;
+  color: red;
+  font-size: 36px;
+  text-decoration: none;
 }
 
 .press {
 	float: left;
 color: red;
+margin-left: 300px;
+text-decoration: none;
 }
 
+
 .review {margin: 100px;
-padding-bottom: 25px;}
+  padding-bottom: 20px;
+ text-decoration: none;
+}
 
 .charlestoncitypaper {margin: 100px;
 padding-bottom: 5px;
+ text-decoration: none;
 }
 
-.lightning {margin: 100px;}
+.lightning {margin: 100px;
+padding-bottom: 5px;
+ text-decoration: none;
+}
 
 .contact 	{  
 font-size: 45px;
@@ -240,10 +324,20 @@ font-size: 45px;
   width: 30px;
 }
 
+.email h4 {
+  padding-right: 100px;
+  padding-left: 100px;
+  font-size: 75px;
+}
+
+.backpicture {
+  float: right;
+}
+
 .subscribe {
-	margin: 100px;
-	padding-top: 500px;
-	width: 200px;
+  margin-left: 100px;
+  margin-top: 100px;
+  float: left;
 }
 
 .mySlides {
@@ -253,3 +347,4 @@ font-size: 45px;
 .mySlides.active {
   display: block;
 }
+
